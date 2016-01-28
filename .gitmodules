@@ -1,0 +1,3 @@
+[submodule "naoutil"]
+	path = naoutil
+	url = git@github.com:AxelVoitier/naoutil.git

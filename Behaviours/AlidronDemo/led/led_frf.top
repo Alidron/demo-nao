@@ -1,0 +1,12 @@
+topic: ~led()
+language: frf
+
+concept:(allume) [allume active]
+concept:(éteint) [éteint coupe déactive]
+concept:(lumière) [lumière lampe éclairage]
+
+u:(~allume ~lumière bleu) $blueLight=1
+u:(~éteint ~lumière bleu) $blueLight=0
+
+u:(~allume ~lumière !bleu) $lamp=1
+u:(~éteint ~lumière !bleu) $lamp=0
