@@ -1,3 +1,6 @@
 [submodule "naoutil"]
 	path = naoutil
 	url = git@github.com:AxelVoitier/naoutil.git
+[submodule "alidron-env/isac"]
+	path = alidron-env/isac
+	url = git@github.com:Alidron/alidron-isac.git
