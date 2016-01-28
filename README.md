@@ -12,7 +12,7 @@ $ git clone --recursive git@github.com:Alidron/demo-nao.git
 ```
 * Copy some files on the robot:
 ```
-scp -r alidron-env naoutil demo-alidron-nao.py start-demo-alidron-nao.sh nao@nao.local:
+$ scp -r alidron-env naoutil demo-alidron-nao.py start-demo-alidron-nao.sh nao@nao.local:
 ```
 * Load the application from `Behaviour/AlidronDemo` in Choregraphe, and install it on the robot.
 * ssh on the robot and start the demo script:
