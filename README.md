@@ -1,6 +1,8 @@
 Demo NAO program
 ================
 
+[![Gitter](https://badges.gitter.im/gitterHQ/gitter.svg)](https://gitter.im/Alidron/talk)
+
 This is the program for NAO used in the FOSDEM talk.
 
 How to use
