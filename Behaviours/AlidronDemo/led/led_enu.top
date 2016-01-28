@@ -1,2 +1,12 @@
 topic: ~led()
 language: enu
+
+concept:(on) ["switch on" "turn on"]
+concept:(off) ["switch off" "turn off"]
+concept:(light) [light lamp bulb]
+
+u:(~on blue ~light) $blueLight=1
+u:(~off blue ~light) $blueLight=0
+
+u:(~on !blue ~light) $lamp=1
+u:(~off !blue ~light) $lamp=0
